@@ -3,25 +3,25 @@ import css from './cardstyle.module.css';
 function Card({imgUrl, text1}){
     return(
         <div className={css["card"]}>
-            <img src={imgUrl} alt="" />
-            <p>{text1}</p>
+            <img  className='animate__animated animate__backInDown' src={imgUrl} alt="" />
+            <p className='animate__animated animate__bounceInLeft'>{text1}</p>
         </div>
     )
 }
 function Card1({imgUrl, text1}){
     return(
         <div className={css["card1"]}>
-            <img src={imgUrl} alt="" />
-            <p>{text1}</p>
+            <img  className='animate__animated animate__lightSpeedInLeft' src={imgUrl} alt="" />
+            <p  className='animate__animated animate__backInDown'>{text1}</p>
         </div>
     )
 }
 function Card2({imgUrl, text1, btn}){
     return(
         <div className={css["card2"]}>
-            <img src={imgUrl} alt="" />
-            <p>{text1}</p>
-            <button>{btn}</button>
+            <img className='animate__animated animate__rotateInDownRight' src={imgUrl} alt="" />
+            <p className='animate__animated animate__rollIn'>{text1}</p>
+            <button className='animate__animated animate__zoomInRight'>{btn}</button>
         </div>
     )
 }

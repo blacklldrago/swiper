@@ -39,7 +39,7 @@ function App() {
       <Container>
         <div className={style["navbar"]}>
           <div className={style["start"]}>
-            <img src={nok} alt="" />
+            <img  src={nok} alt="" />
           </div>
           <div className={style["middle"]}>
             <ul>
@@ -69,13 +69,13 @@ function App() {
         </div>
         <div className={style["center"]}>
           <div className={style["left-center"]}>
-            <p >Хотите чего-то большего, чем просто еды? </p>
-            <h1>Сделайте <span style={{color:"#1DC46C"}}>«knock- knock»</span>,и мы едем к вам!</h1>
-            <p>NOK Delivery - это не только доставка еды и продуктов питания, но и напитков, одежды, бытовой химии, косметики и парфюмерии, спортивного питания, лекарств, подарков, цветов, товаров для детей и прочего.</p>
-            <button>Скачать приложение</button>
+            <p className='animate__animated animate__backInDown'>Хотите чего-то большего, чем просто еды? </p>
+            <h1 className='animate__animated animate__backInDown'>Сделайте <span style={{color:"#1DC46C"}}>«knock- knock»</span>,и мы едем к вам!</h1>
+            <p className='animate__animated animate__swing animate__slower-2s'>NOK Delivery - это не только доставка еды и продуктов питания, но и напитков, одежды, бытовой химии, косметики и парфюмерии, спортивного питания, лекарств, подарков, цветов, товаров для детей и прочего.</p>
+            <button className='animate__animated animate__fadeInDownBig animate__slower-2s'>Скачать приложение</button>
           </div>
           <div className={style["right-center"]} >
-              <img src={hand} alt="" />
+              <img  className='animate__animated animate__backInDown' src={hand} alt="" />
           </div>
         </div>
       </Container>
@@ -83,7 +83,7 @@ function App() {
     <div className={style["container2"]}>
       <Container>
         <div className={style["box"]}>
-          <Card imgUrl={leaf} text1 = "Всегда качественные товары и свежие продукты"/>
+          <Card  imgUrl={leaf} text1 = "Всегда качественные товары и свежие продукты"/>
           <Card imgUrl={wallet} text1 = "Всегда качественные товары и свежие продукты"/>
           <Card imgUrl={headphones} text1 = "Всегда качественные товары и свежие продукты"/>
         </div>  
@@ -92,7 +92,7 @@ function App() {
     <div className={style["container3"]}>
       <Container>
         <div className={style["text-c3"]}>
-        <p> <span>NOK</span> - это уникальное приложение, которое предоставляет возможность быстро и легко получать все необходимые товары из магазинов нашего города всего за несколько кликов. Благодаря интеграции наших партнёров и объединению усилий, город становится более доступным для каждого клиента.</p>
+        <p className='animate__animated animate__rollIn'> <span>NOK</span> - это уникальное приложение, которое предоставляет возможность быстро и легко получать все необходимые товары из магазинов нашего города всего за несколько кликов. Благодаря интеграции наших партнёров и объединению усилий, город становится более доступным для каждого клиента.</p>
         </div>
       </Container>
     </div>
@@ -111,8 +111,8 @@ function App() {
             <Card2 imgUrl={box} text1 = "Рестораны" btn="Подробнее"/>
         </div>
         <div className={style["text-box"]}>
-          <h1>«Экспресс курьер»- оперативная доставка документов, товаров или подарков.</h1>
-          <p>Предоставляем уникальную услугу «Экспресс курьер» для наших партнёров и клиентов. Вам не нужно делегировать поручения сотрудникам по работе или знакомым. Занимайтесь работой, или отдыхайте, а наш курьер максимально быстро доставит товар или документы адресату с соблюдением конфиденциальности и сохранности.</p>
+          <h1 className='animate__animated animate__rollIn'>«Экспресс курьер»- оперативная доставка документов, товаров или подарков.</h1>
+          <p className='animate__animated animate__rollIn'>Предоставляем уникальную услугу «Экспресс курьер» для наших партнёров и клиентов. Вам не нужно делегировать поручения сотрудникам по работе или знакомым. Занимайтесь работой, или отдыхайте, а наш курьер максимально быстро доставит товар или документы адресату с соблюдением конфиденциальности и сохранности.</p>
 
         </div>
       </Container>
@@ -120,8 +120,8 @@ function App() {
     <div className={style["container5"]}>
       <Container>
           <div className={style["grey-text"]}>
-              <h1>Сделать заказ стало <span style = {{color:"#325F93"}}>ещё проще</span></h1>
-              <p>Три простых шага для работы с нами!</p>
+              <h1 className='animate__animated animate__flipInY'>Сделать заказ стало <span style = {{color:"#325F93"}}>ещё проще</span></h1>
+              <p className='animate__animated animate__flipInY'>Три простых шага для работы с нами!</p>
           </div>
         <div className={style["grey"]}>
           <div className={style["three"]}>
@@ -130,8 +130,8 @@ function App() {
                     <img src={cloud} alt="" />
                   </div>
                   <div className={style["left-box1"]}>
-                    <h1>Загрузите наше приложение</h1>
-                    <p>Укажите свои контактные данные.</p>
+                    <h1  className='animate__animated animate__flipInY'>Загрузите наше приложение</h1>
+                    <p  className='animate__animated animate__bounceInRight'>Укажите свои контактные данные.</p>
                   </div>
                 </div>
                 <div className={style["box2"]}>
@@ -139,8 +139,8 @@ function App() {
                     <img src={check} alt="" />
                   </div>
                   <div className={style["left-box2"]}>
-                    <h1>Сравните и сэкономьте.</h1>
-                    <p>Выберите понравившиеся товары по выгодным ценам и оформите заказ через приложение или по телефону.</p>
+                    <h1 className='animate__animated animate__flipInY'>Сравните и сэкономьте.</h1>
+                    <p className='animate__animated animate__bounceInRight'>Выберите понравившиеся товары по выгодным ценам и оформите заказ через приложение или по телефону.</p>
                   </div>
                 </div>
                 <div className={style["box3"]}>
@@ -148,8 +148,8 @@ function App() {
                     <img src={like} alt="" />
                   </div>
                   <div className={style["right-box3"]}>
-                    <h1>Получите лучший сервис.</h1>
-                    <p>Отлично проведите время с родственниками, коллегами и друзьями. Мы предоставим все необходимое для вашего отдыха и комфорта.</p>
+                    <h1 className='animate__animated animate__flipInY'>Получите лучший сервис.</h1>
+                    <p className='animate__animated animate__bounceInRight'>Отлично проведите время с родственниками, коллегами и друзьями. Мы предоставим все необходимое для вашего отдыха и комфорта.</p>
                   </div>
                 </div>
           </div>
@@ -161,7 +161,7 @@ function App() {
         <h1 className={style["download"]}> <span style={{color:"#325F93"}}>Скачайте приложение,</span> чтобы воспользоваться сервисом доставки.</h1>
         <div className={style["software"]}>
           <div className={style["android"]}>
-            <h1>Для пользователей Android.</h1>
+            <h1 className='animate__animated animate__bounceInRight'>Для пользователей Android.</h1>
             <Card3
             number="1"
             text1="Откройте Google Play Market на смартфоне."
@@ -179,14 +179,14 @@ function App() {
             text1="Завершите операцию, следуя инструкциям на экране."
               />
             <div className={style["google1"]}>
-              <img src={googleplay} alt="" />
+              <img className='animate__animated animate__bounceInRight' src={googleplay} alt="" />
             </div>
           </div>
           <div className={style["smartphone"]}>
-              <img src={smartphone} alt="" />
+              <img className='animate__animated animate__bounceInRight' src={smartphone} alt="" />
           </div>
           <div className={style["ios"]}>
-          <h1>Для пользователей IOS.</h1>
+          <h1 className='animate__animated animate__bounceInRight'>Для пользователей IOS.</h1>
             <Card3
             number="1"
             text1="Откройте AppStore на смартфоне."
@@ -204,7 +204,7 @@ function App() {
             text1="Завершите установку следуя инструкциям на экране."
               />
             <div className={style["ios"]}>
-              <img src={Apple} alt="" />
+              <img className='animate__animated animate__bounceInRight' src={Apple} alt="" />
             </div>
           </div>
         </div>
@@ -227,7 +227,7 @@ function App() {
                 <img src={location} alt="" />
               </div>
               <div className={style["text-locate"]}>
-                <p>Узбекистан, Ташкент, Мирабадский район, ул. Айбека, 61</p>
+                <p className='animate__animated animate__bounceInRight'>Узбекистан, Ташкент, Мирабадский район, ул. Айбека, 61</p>
               </div>
             </div>
             <div className={style["info"]}>
@@ -235,15 +235,15 @@ function App() {
                 <img src={phoneimg} alt="" />
               </div>
               <div className={style["text-locate1"]}>
-                <p>+998 71-205-90-01</p>
+                <p className='animate__animated animate__bounceInRight'>+998 71-205-90-01</p>
               </div>
             </div>
             <div className={style["info"]}>
               <div className={style["locate"]}>
-                <img src={email} alt="" />
+                <img  src={email} alt="" />
               </div>
               <div className={style["text-locate2"]}>
-                <p>office@nokdelivery.uz</p>
+                <p className='animate__animated animate__bounceInRight'>office@nokdelivery.uz</p>
               </div>
             </div>
             <div className={style["info"]}>
@@ -257,13 +257,13 @@ function App() {
             <h1 className={style["social"]}>Мы в социальных сетях</h1>
             <div className={style["mediaS"]}>
               <div className={style["facebook"]}>
-                  <img src={facebook} alt="" />
+                  <img className='animate__animated animate__bounceInRight' src={facebook} alt="" />
               </div>
               <div className={style["instagram"]}>
-              <img src={instagram} alt="" />
+              <img className='animate__animated animate__bounceInRight'  src={instagram} alt="" />
               </div>
             </div>
-            <div className={style["wee"]}>
+            <div  className={style["wee"]}>
                 <button className={style["we"]}>написать нам</button>
             </div>
         </div>
@@ -277,13 +277,13 @@ function App() {
           </div>
           <div className={style["second"]}>
             <div className={style["text-second"]}>
-              <p>Скачать приложение:</p>
+              <p className='animate__animated animate__pulse animate__infinite'>Скачать приложение:</p>
             </div>
             <div className={style["google1"]}>
-              <img src={googleplay} alt="" />
+              <img className='animate__animated animate__pulse animate__infinite' src={googleplay} alt="" />
             </div>
             <div className={style["ios1"]}>
-              <img src={Apple} alt="" />
+              <img className='animate__animated animate__pulse animate__infinite' src={Apple} alt="" />
             </div>
           </div>
         </div>
