@@ -1,0 +1,113 @@
+.card{
+    width:367px;
+    height:261px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 0px 14px;
+    text-align: center;
+
+}
+.card p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #444444;
+}
+/* //////////////////// */
+.card1{
+    text-align: center;
+}
+.card1 p{
+    width: 366px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    
+}
+.card2{
+    text-align: center;
+}
+.card2 p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #325F93;
+    margin: 20px 0px;
+}
+.card2 button{
+    background: linear-gradient(85.32deg, #2BC36F 6.78%, #2086A6 89.25%);
+    border-radius: 150px;
+    width: 230px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+/* card3 */
+.card3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.number{
+    width: 35px;
+    height: 35px;
+    background-color: #325F93;
+    border-radius: 100%;
+}
+.number p{
+    color: white;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+@media only screen and (min-width: 600px ) and (max-width: 1280px) {
+    
+    .card p, .card1 p, .card2 p, .card3 p{
+
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .card2 p{
+        margin-bottom: 20px;
+    }
+    .card, .card1{
+        height: 300px;
+    }
+    .card2 button{
+        font-size: 20px;
+    }
+    .number p{
+        margin-left: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+}
+@media only screen and (min-width: 360px ) and (max-width: 599px) {
+    .card2 img, .card{
+        width: 800px;
+    }
+    .card2 p, .card p{
+        font-size: 40px;
+    }
+    .card2 button{
+        width: 400px;
+        height: 60px;
+        font-size: 40px;
+        font-weight: 800;
+        margin-top: 25px;
+    }
+    .text1 p{
+        font-size: 50px;
+    }
+    .number{
+        display: none;
+    }
+}
